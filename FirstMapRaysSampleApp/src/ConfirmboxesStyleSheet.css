@@ -1,0 +1,28 @@
+#add-confirm-container{
+	-fx-control-inner-background: #209b9d;
+}
+
+Button{
+	-fx-background-color: #05faff;
+	-fx-font-size: 12px;
+	-fx-font-weight: bold;
+}
+
+Button:hover {
+	-fx-cursor: hand;
+	-fx-background-color: #166060;
+	-fx-font-size: 12px;
+	-fx-font-weight: bold;
+}
+
+VBox{
+	-fx-background-color: #05dce3;
+	-fx-border-width: 9px;
+	-fx-border-color: #012728;
+}
+Label{
+	-fx-font-weight: bold;
+	-fx-color: #000000;
+	-fx-font-size: 14px;
+}
+

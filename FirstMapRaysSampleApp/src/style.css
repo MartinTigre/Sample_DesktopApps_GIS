@@ -1,0 +1,79 @@
+.root {
+    -fx-background-color: #000000;
+}
+.top-menubar-container{
+	-fx-background-color: #000000;
+	-fx-control-inner-background: #097c7e;
+}
+
+.right-side-menus-container{
+	-fx-background-color: #000000;
+	-fx-control-inner-background: #097c7e;
+}
+
+MenuBar {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #0f2e2c, #0ff4fa);
+}
+
+TreeView{
+	-fx-background-color: #097c7e;
+	-fx-control-inner-background: #097c7e;
+}
+
+Button{
+	-fx-background-color: #05faff;
+}
+
+Button:hover {
+	-fx-cursor: hand;
+	-fx-background-color: #166060;
+}
+
+Button:pressed {
+	-fx-border-color: #0a4a4a;
+}
+
+CheckBox .box {
+    -fx-background-color: #05faff;
+    -fx-border-color: #000000;
+}
+
+CheckBox:selected .box {
+    -fx-background-color: #000000;
+    -fx-border-color: #ffffff;
+}
+
+TreeItem {
+	-fx-background-color: #097c7e;
+}
+
+TreeCell {
+	-fx-color: #097c7e;
+}
+
+#radialItem {
+    -fx-fill: linear-gradient(#05faff, #018b89);
+    -fx-stroke: #05faff;
+    -fx-stroke-width: 2;
+}
+
+#radialItem:pressed {
+    -fx-fill: linear-gradient(#A0A0A0, #0e7c7b);
+    -fx-stroke: #45D3CE;
+    -fx-stroke-width: 2;
+}
+
+
+#radialItem:selected {
+    -fx-fill: linear-gradient(#01554d, #0e7c7b);
+    -fx-stroke: #05faff;
+    -fx-stroke-width: 2;
+}
+
+#radial-menu-container {
+	-fx-translate-x: 100px;
+    -fx-translate-y: 50px;
+    
+}
+
+
